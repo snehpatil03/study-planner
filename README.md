@@ -1,1 +1,1 @@
-# study-planner
+#  Ai study-planner
