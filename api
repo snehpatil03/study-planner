@@ -1,0 +1,10 @@
+"""
+API package.
+
+This package exposes a FastAPI application that serves as an HTTP interface to
+the RAG pipeline.  The API supports a single endpoint `/query` which accepts
+JSON payloads containing a question and returns an answer generated via
+retrieval‑augmented generation.
+"""
+
+from .app import app  # noqa: F401
