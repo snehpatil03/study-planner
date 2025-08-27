@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Unit test / coverage reports
+.coverage
+coverage.xml
+htmlcov/
+pytest_cache/
+
+# FAISS vector stores and other generated data
+vector_store/
+**/faiss_index*
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# AWS and cloud credentials (never commit secrets)
+.aws/
+
+# Editor directories and files
+.idea/
+.vscode/
